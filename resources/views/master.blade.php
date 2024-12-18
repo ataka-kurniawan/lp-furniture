@@ -14,7 +14,7 @@
     <div class="container mx-auto flex justify-between items-center">
         <a href="{{route('index')}}" class="flex items-center space-x-2">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPoKRpdnIQG2_UHaZ-CFBy8Gzj3wmuE3bKoQ&s" alt="Logo" class="w-12 h-12 rounded-full shadow-md">
-            <span class="text-3xl font-extrabold tracking-widest hover:text-pink-300">Ataka Furniture</span>
+            <span class="text-3xl font-bold tracking-widest hover:text-pink-300">LP Furniture</span>
         </a>
         <nav class="flex items-center space-x-6">
             <a href="{{route('index')}}" class="text-lg font-medium hover:text-pink-400 transition">Home</a>

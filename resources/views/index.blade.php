@@ -33,16 +33,7 @@
     </style>
 @endsection
 @section('content')
-    <div class="hero-gradient text-white h-screen flex flex-col items-center justify-center relative">
-        <div class="text-center space-y-6">
-            <h1 class="text-5xl md:text-7xl font-extrabold animate-pulse">Transform Your Space</h1>
-            <p class="text-lg md:text-xl font-light max-w-3xl mx-auto" style="margin-bottom: 1cm">Discover furniture that perfectly blends elegance and comfort to elevate your home experience.</p>
-            <a href="/store" class="px-8 py-3 bg-white text-pink-500 font-bold text-lg rounded-full shadow-xl hover:bg-pink-100 transition">Shop Now</a>
-        </div>
-        <div class="absolute bottom-8 animate-bounce">
-            <a href="#carousel" class="text-2xl font-bold">↓ Explore ↓</a>
-        </div>
-    </div>
+
     <div id="carousel" class="relative overflow-hidden parallax bg-cover bg-center" style="background-image: url('{{ asset('assets/furniture.jpg') }}');">
         <div class="flex transition-transform duration-700" id="carousel-inner">
             <div class="min-w-full h-[600px] flex items-center justify-center text-white bg-black bg-opacity-60">
